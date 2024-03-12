@@ -1,4 +1,4 @@
-<img width="378" alt="image" src="https://github.com/FTaheriN/Speech-Synthesis---SpeechT5/assets/73983064/8664666f-9b56-41a5-9976-d38366f7e8bd">[SpeechT5](https://huggingface.co/docs/transformers/en/model_doc/speecht5) is finetuned for Persian text to speech gengration with the help of the [Common voice dataset](https://commonvoice.mozilla.org/en/datasets).
+[SpeechT5](https://huggingface.co/docs/transformers/en/model_doc/speecht5) is finetuned for Persian text to speech gengration with the help of the [Common voice dataset](https://commonvoice.mozilla.org/en/datasets).
 The Persian dataset is collected and half of the train set is used for finetuning and evaliation. The procedure taken to perform the task is as follows:
 
 1. All text in the dataset are converted to Finglish by mapping persian characters through ASCII codes. This allows us to continue with the model's tokenizer as it is and there would be no need to add Persian characters as tokens to the tokenizer vocabulary.
